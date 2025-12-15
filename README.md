@@ -46,7 +46,7 @@ These appendices serve as operational extensions of the core papers.
 They provide mathematical rigor, system designs, datasets, and policy-ready
 implementation frameworks.
 
-## Appendix F — Implementation Resources & Technical Annex
+## Appendix F.9 — Implementation Resources & Technical Annex
 Supports:
 - Boundary OS
 - Boundary Stability Index (BSI)
@@ -57,7 +57,7 @@ Contents:
 - Simulation UI design
 - Synthetic datasets
 
-→ [Go to Appendix F](./appendix-f/README.md)
+→ [Go to Appendix F.9](https://github.com/cospira-arch/Appendix-F.9)
 
 ## Appendix G — National Implementation Blueprint
 Supports:
