@@ -49,7 +49,7 @@ Synthetic datasets (v0.1)
 
 Policy simulation interfaces
 
-👉 See: appendices/F/README.md
+👉 See: [appendices/F/README.md](https://github.com/cospira-arch/Appendix-F)
 
 📄 Appendix F.9 — Boundary Stability Index (BSI)
 
@@ -70,7 +70,7 @@ KPI integration back into policy evaluation
 
 Links to the BSI Simulator UI
 
-👉 See: appendices/F/F9-BSI/README.md
+👉 See: [appendices/F/F9-BSI/README.md](https://github.com/cospira-arch/Appendix-F.9)
 
 📁 Appendix G — National & Trilateral Implementation Blueprints
 
@@ -90,7 +90,7 @@ Government-report-grade timelines, budgets, and KPIs
 
 Appendix G is designed so that it can function independently as a policy proposal, even when detached from the main paper.
 
-👉 See: appendices/G/README.md
+👉 See: [appendices/G/README.md](https://github.com/cospira-arch/Appendix-G)
 
 Navigation Guide
 If you are a…	Start here
