@@ -40,81 +40,36 @@ F.x	Mathematical Specification of BSI	Formal definitions, weights, thresholds
 
 👉 Appendix F is implementation-first and directly supports policymakers, engineers, and auditors.
 
-📙 Appendix G — National Implementation Blueprints
+# Appendices — Implementation & Evidence Hub
 
-Focus: How Boundary OS scales at nation-state level
+These appendices serve as operational extensions of the core papers.
+They provide mathematical rigor, system designs, datasets, and policy-ready
+implementation frameworks.
 
-Section	Description
-G.1–G.3	Governance alignment & institutional roles
-G.4–G.6	Five-layer national boundary mapping
-G.7	Crisis simulation & stress testing
-G.8	Budgeting & KPI frameworks
-G.9	Cross-border coordination protocols
-G.10	Global replication pathways
-
-Pilot Case:
-🇸🇬 Singapore (hub) × 🇹🇼 Taiwan × 🇪🇪 Estonia
-(Tri-Nation Responsive Security Pact, 2026–2028)
-
-Cross-Reference System (F ↔ G)
-
-To improve navigability, all figures and tables follow a bi-directional reference scheme:
-
-Figure F-x / Figure G-y
-
-Table F-x / Table G-y
-
-Example:
-
-Figure F.9-2 (BSI Computation Flow) ↔ Figure G.8-1 (Policy KPI Integration)
-
-This allows:
-
-Policymakers to jump from national plans → technical metrics
-
-Researchers to trace metrics → real-world governance contexts
-
-Boundary Stability Index (BSI)
-
-BSI is the core evaluative instrument connecting all appendices.
-
-Integrates Five-Layer Model (L1–L5)
-
-Produces interpretable scores without automated judgment
-
+## Appendix F — Implementation Resources & Technical Annex
 Supports:
+- Boundary OS
+- Boundary Stability Index (BSI)
 
-Migration policy assessment
+Contents:
+- System architecture
+- Mathematical specifications
+- Simulation UI design
+- Synthetic datasets
 
-Diplomatic stress monitoring
+→ [Go to Appendix F](./appendix-f/README.md)
 
-AI governance risk evaluation
+## Appendix G — National Implementation Blueprint
+Supports:
+- Boundary OS
 
-Related materials:
+Contents:
+- Government-grade deployment scenarios
+- Trilateral pilot plans
+- Budget models and KPIs
 
-📄 Mathematical Appendix (LaTeX-ready)
+→ [Go to Appendix G](./appendix-g/README.md)
 
-📊 Synthetic Dataset v0.1 (CSV)
-
-🧪 Policy Simulator UI
-
-📈 Visualization templates (academic & policy formats)
-
-Intended Audiences
-
-Policy Designers & Diplomats
-
-AI Governance & Ethics Researchers
-
-Systems Architects
-
-International Organizations (EU / UN / ASEAN)
-
-Academic Reviewers
-
-Each appendix is written to remain auditable by humans, even when AI-assisted tools are used.
-
-How to Use This Appendix
 
 📖 Reading the paper?
 → Jump here for formal definitions and figures.
