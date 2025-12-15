@@ -1,110 +1,138 @@
-Appendix Compendium
+Appendices Hub
 
-Boundary OS — Technical, Mathematical, and Policy Annexes
+Operational & Technical Companion to the Boundary OS Framework
 
-This appendix repository serves as the operational backbone of the Boundary OS research program.
-While the main papers establish theoretical foundations and policy implications, the appendices provide executable, inspectable, and extensible artifacts demonstrating that Boundary OS is not merely conceptual, but implementable across institutional scales.
+Overview
 
-Purpose of This Appendix
+This Appendix Hub serves as the operational backbone of the Boundary OS research ecosystem.
+While the core papers establish theory, logic, and policy implications, the appendices provide implementation-grade artifacts: specifications, datasets, simulation designs, figures, and governance scaffolding.
 
-The appendices are designed to fulfill four functions:
+Together, these appendices demonstrate that Boundary OS is not only conceptual, but executable.
 
-Reproducibility
-Enable researchers and policymakers to trace assumptions, metrics, and algorithms.
+Relationship to Core Papers
 
-Operationalization
-Translate theory into planning tools, datasets, simulation interfaces, and governance templates.
+Each appendix explicitly maps back to one or more core papers:
 
-Policy Transferability
-Allow adaptation across domains (migration, diplomacy, AI governance) and regions (EU, ASEAN, city-level pilots).
+Boundary OS: Redesigning Security, Diplomacy, and Agency in the Age of AI
+→ System architecture, mediation rules, and governance logic
 
-Auditability & Trust
-Make Boundary OS transparent by design—especially regarding AI’s non-dominant mediation role.
+Boundary Stability Index (BSI): Measuring Adaptive Resilience in Complex Societies
+→ Quantitative index, datasets, mathematical specification, and simulation
 
-Appendix Structure Overview
-📘 Appendix F — Implementation Resources & Technical Annex
+This hub clarifies what belongs where, and how readers, policymakers, and engineers should navigate the materials.
 
-Focus: How Boundary OS works in practice
+Appendix Structure
+📁 Appendix F — Implementation Resources & Technical Annex
 
-Section	Title	Description
-F.1	System Architecture Overview	Modular Boundary OS architecture
-F.2	Data Ingestion & Sensing Pipelines	Tremor detection inputs (material → affective)
-F.3	Boundary State Machine	State transitions & tuning logic
-F.4	AI Mediation Constraints	Negative Protocol & human override rules
-F.5	Visualization Interfaces	Dashboards & policy-facing UI logic
-F.6	Simulation Scenarios	If–then policy intervention models
-F.7	Cross-Border Deployment Templates	Trilateral / multilateral reuse
-F.8	Ethical & Legal Compliance Mapping	EU AI Act, ADM audits
-F.9	Boundary Stability Index (BSI)	Quantitative–qualitative hybrid metric
-F.x	Mathematical Specification of BSI	Formal definitions, weights, thresholds
+Primary Reference: Boundary OS / BSI
 
-👉 Appendix F is implementation-first and directly supports policymakers, engineers, and auditors.
+Appendix F collects technical, mathematical, and design-level resources required to implement, test, or simulate Boundary OS systems.
 
-# Appendices — Implementation & Evidence Hub
+Contents include:
 
-These appendices serve as operational extensions of the core papers.
-They provide mathematical rigor, system designs, datasets, and policy-ready
-implementation frameworks.
+F.1–F.4
+System architecture diagrams, boundary state machine logic, data flow specifications
 
-## Appendix F.9 — Implementation Resources & Technical Annex
-Supports:
-- Boundary OS
-- Boundary Stability Index (BSI)
+F.5–F.8
+AI mediation constraints, negative protocols, auditability requirements
 
-Contents:
-- System architecture
-- Mathematical specifications
-- Simulation UI design
-- Synthetic datasets
+F.9 — Boundary Stability Index (BSI)
+A dedicated sub-appendix focusing on:
 
-→ [Go to Appendix F.9](https://github.com/cospira-arch/Appendix-F.9)
+Mathematical formulation of BSI
 
-## Appendix G — National Implementation Blueprint
-Supports:
-- Boundary OS
+Layer-wise computation (L1–L5)
 
-Contents:
-- Government-grade deployment scenarios
-- Trilateral pilot plans
-- Budget models and KPIs
+Weighting, thresholds, and normalization
 
-→ [Go to Appendix G](./appendix-g/README.md)
+Synthetic datasets (v0.1)
 
+Policy simulation interfaces
 
-📖 Reading the paper?
-→ Jump here for formal definitions and figures.
+👉 See: appendices/F/README.md
 
-🏛 Designing policy?
-→ Start with Appendix G, then drill down into F.
+📄 Appendix F.9 — Boundary Stability Index (BSI)
 
-🧪 Building tools or simulations?
-→ Appendix F is your entry point.
+Primary Reference: BSI Paper
+Secondary Reference: Boundary OS (operational feedback)
 
-License & Contribution
+Appendix F.9 is treated as a standalone technical annex, equivalent in rigor to a methods section of a quantitative paper.
 
-This repository is intended for open academic and policy collaboration.
+It includes:
 
-Conceptual framework © Eiji Kodama
+Formal mathematical specification
 
-Code, datasets, and templates: Open for non-extractive reuse
+Dataset schema and variable definitions
 
-Contributions welcome via issues and pull requests
+Example calculations (EU migration cases, synthetic data)
 
-Related Links
+KPI integration back into policy evaluation
 
-📄 Main Papers
+Links to the BSI Simulator UI
 
-Boundary OS
+👉 See: appendices/F/F9-BSI/README.md
 
-Boundary Stability Index (BSI)
+📁 Appendix G — National & Trilateral Implementation Blueprints
 
-🧭 Simulator UI
+Primary Reference: Boundary OS (Policy & Diplomacy)
 
-🎨 Art & Narrative Experiments
+Appendix G translates Boundary OS theory into nation-scale execution plans.
 
-📬 Contact & Community
+Current focus:
 
-Final Thoughts
+Singapore Pilot Hub
 
-Boundaries are not walls to defend, but membranes to tune.
-This appendix exists so that Boundary OS can be tested, questioned, improved, and trusted.
+Trilateral Cooperation: Singapore–Taiwan–Estonia
+
+AI-mediated diplomacy, cyber resilience, and crisis response
+
+Government-report-grade timelines, budgets, and KPIs
+
+Appendix G is designed so that it can function independently as a policy proposal, even when detached from the main paper.
+
+👉 See: appendices/G/README.md
+
+Navigation Guide
+If you are a…	Start here
+Policy maker	Appendix G → Appendix F.9
+Researcher	Appendix F → F.9 (BSI)
+Engineer / Data scientist	Appendix F (architecture + datasets)
+Reviewer / Evaluator	Core papers → Appendix F.9
+General reader	Core papers → Appendix G
+Design Philosophy of the Appendices
+
+Executable, not illustrative
+Every figure, table, and formula is designed to be implementable.
+
+AI non-dominance preserved
+All technical artifacts enforce human override and prohibit automated judgment at narrative/social layers.
+
+Layer consistency
+All measurements, simulations, and dashboards align with the Five-Layer Model (Material → Social).
+
+Citation & Reuse
+
+All appendices may be cited independently, provided that references to the core papers are maintained.
+
+Recommended citation format:
+
+Kodama, E. (2026). Boundary OS: Appendices F–G. Boundary OS Research Repository.
+
+Status
+
+Appendix F: Active development
+
+Appendix F.9 (BSI): Stable v1.0 draft
+
+Appendix G: Pilot-ready (Singapore focus)
+
+Next Steps
+
+Expansion of BSI real-world datasets
+
+Open-source release of simulator components
+
+Additional national pilot appendices (G.x)
+
+Boundary OS is not a doctrine.
+It is an operating system for adaptive coexistence.
