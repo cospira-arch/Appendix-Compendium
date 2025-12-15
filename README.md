@@ -1,4 +1,5 @@
 Appendix Compendium
+
 Boundary OS — Technical, Mathematical, and Policy Annexes
 
 This appendix repository serves as the operational backbone of the Boundary OS research program.
